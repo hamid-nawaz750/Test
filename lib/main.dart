@@ -26,6 +26,7 @@ class HomeScreen extends StatelessWidget {
     return Scaffold(
       body: Column(
         children: [
+          Text('we added new text file '),
           CustomTextformField(
             hint: 'welcome',
             iconn: Icons.person,
